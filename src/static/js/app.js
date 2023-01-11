@@ -1,11 +1,8 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
-    const text = {
-        text: 'ToDo App by Masaki Sanada',
-    }
     return (     
         <Container>
-            <h1 text></h1>
+            <h1>ToDo App by Masaki Sanada</h1>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
