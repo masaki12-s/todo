@@ -4,7 +4,7 @@ function App() {
         <Container>
             ToDo App by Masaki Sanada
             <Row>
-                <Col md={{ offset: 3, span: 6 }}>
+                <Col md={{ offset: 3, span: 6 }} aaaa>
                     <TodoListCard />
                 </Col>
             </Row>
